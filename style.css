@@ -1,9 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: minmax(1rem, auto) minmax(auto, 72ch) minmax(
-      1rem,
-      auto
-    );
+  grid-template-columns: minmax(1rem, auto) minmax(auto, 72ch) minmax(1rem, auto);
 }
 body > * {
   grid-column: 2;
@@ -33,3 +30,5 @@ nav a {
     flex-direction: row;
   }
 }
+
+/** Ændringer en masse **/
